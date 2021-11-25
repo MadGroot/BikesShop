@@ -1,0 +1,88 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background:rgb(177, 177, 177);
+}
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(245, 244, 244);
+}
+#main-navigation{
+    background: #101010;
+    padding: 10px;
+}
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#main-navigation a{
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+#main-navigation a.current{
+    background: darkgray;
+    border-radius: 50px;
+    background: -webkit-linear-gradient(top, rgb(182, 182, 182), gray);
+    box-shadow: 2px 2px;
+}
+#main-navigation a.current:hover{
+color: red;
+background: -webkit-linear-gradient(top,rgb(182, 182, 182), gray );
+}
+#main-navigation a.current:active{
+color: lime;
+background: -webkit-linear-gradient(bottom,gray, yellow);
+}
+#lead-baner{
+    width: 100%;
+}
+#shop{
+    margin: 30px 0;
+    text-align: center;
+}
+#shop h2.product-name{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+#shop span.price{
+    display: block ;
+    font-size: 30px;
+}
+#shop a.add-to-bag{
+    display: block;
+    color: rgb(240, 240, 0);
+    text-transform: uppercase ;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0;
+    border: 2px solid;
+    width: 210px;
+    margin: 20px auto;
+}
+#shop a.add-to-bag:hover{
+    color: rgb(255, 255, 0);
+    background:black ;
+    background: -webkit-linear-gradient(top, gray, black);
+}
+#shop a.add-to.bag:active{
+    color: lime;
+    background: -webkit-linear-gradient(bottom, gray,yellow);
+}
+.allbikes{
+    width:100% ;
+}
+.mtavari{
+    width: 100%;
+}
+.stars{
+    width: 150px;
+}
