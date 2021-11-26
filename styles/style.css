@@ -46,7 +46,8 @@ background: -webkit-linear-gradient(bottom,gray, yellow);
     width: 100%;
 }
 #shop{
-    margin: 30px 0;
+    margin: 20px 0;
+    margin-top: 0;
     text-align: center;
 }
 #shop h2.product-name{
@@ -77,12 +78,47 @@ background: -webkit-linear-gradient(bottom,gray, yellow);
     color: lime;
     background: -webkit-linear-gradient(bottom, gray,yellow);
 }
+#product-image{
+    margin:0px;
+
+}
 .allbikes{
     width:100% ;
+    
 }
 .mtavari{
     width: 100%;
 }
 .stars{
     width: 150px;
+    margin-top: 0px;
+}
+.video{
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   background-image: url(../images/allbikes-1539286251.jpg);
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   height: 700px; 
+}
+.video iframe{
+    padding-top: 200px;
+}
+
+.footer{
+    background-color: black;
+    color: yellow;
+    height: auto;
+    font-size: 20px;
+}
+.footer a{
+    color:yellow;
+}
+.footer a:hover{
+    color:red;
+}
+.footer a:active{
+    color:lime;
 }
